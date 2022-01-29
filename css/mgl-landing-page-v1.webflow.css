@@ -194,7 +194,7 @@ a {
   display: flex;
   height: auto;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 0vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -238,6 +238,11 @@ a {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.section.wide {
+  padding-top: 0vh;
+  padding-bottom: 5vh;
 }
 
 .col {
@@ -737,7 +742,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: auto;
-  margin-top: 5vh;
+  margin-top: 2vh;
   padding-right: 0px;
   padding-left: 0px;
   -webkit-box-pack: center;
@@ -1315,6 +1320,39 @@ a {
   max-width: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.paragraph-5 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.paragraph-6 {
+  color: #fcfcfc;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.paragraph-7 {
+  text-align: left;
+}
+
+.button-2 {
+  position: static;
+  display: block;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 3px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.2);
+  -webkit-transition: color 200ms cubic-bezier(.789, .159, .25, 1), background-color 500ms cubic-bezier(.789, .159, .25, 1);
+  transition: color 200ms cubic-bezier(.789, .159, .25, 1), background-color 500ms cubic-bezier(.789, .159, .25, 1);
+  color: #fff;
+  line-height: 24px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
