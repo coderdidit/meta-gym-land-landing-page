@@ -1,3 +1,3 @@
 # MetaGymLand
 
-landing page
+https://metagymland.com landing page
